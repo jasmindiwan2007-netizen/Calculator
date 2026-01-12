@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+    <body>
+        <script src="calculator.js"></script>
+<div id="display">
+    <input type="text" id="result"><br><br>
+    <div>
+       
+        <button onclick="clearinsert()">C</button>
+        <button onclick="insert('/')">/</button>
+        <button onclick="insert('-')">-</button>
+        <button onclick="backspace()">&#x232B</button>
+       
+    </div>
+    <div>
+        <br>
+        <button onclick="insert('7')">7</button>
+        <button onclick="insert('8')">8</button>
+        <button onclick="insert('9')">9</button>
+        <button onclick="insert('*')">*</button>
+     
+    </div>
+    <div>
+        <br>
+        <button onclick="insert('4')">4</button>
+        <button onclick="insert('5')">5</button>
+        <button onclick="insert('6')">6</button>
+        <button onclick="insert('%')">%</button><br>
+      
+    </div>
+       <div>
+         <br>
+        <button onclick="insert('1')">1</button>
+        <button onclick="insert('2')">2</button>
+        <button onclick="insert('3')">3</button>
+        <button onclick="insert('+')">+</button>
+    </div>
+    <div>
+         <br>
+        <button onclick="insert('0')" >0</button>
+        <button onclick="insert('00')">00</button>
+        <button onclick="insert('.')" >.</button>
+        <button onclick="calculate()" class="equal">=</button><br>
+    </div>
+</div>  
+    </body>
+    </html>
